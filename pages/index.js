@@ -5,6 +5,8 @@ import { client } from "../libs/client";
 export default function Home({ blog }) {
   return (
     <div>
+      <h1>peaceandwhisky</h1>
+      <p>以下記事一覧です。</p>
       <ul>
         {blog.map((blog) => (
           <li key={blog.id}>
