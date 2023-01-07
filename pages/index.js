@@ -5,7 +5,7 @@ import { client } from "../libs/client";
 export default function Home({ blog }) {
   return (
     <div>
-      <h1>peaceandwhisky</h1>
+      <h1 className="text-3xl font-bold underline">peaceandwhisky</h1>
       <p>以下記事一覧です。</p>
       <ul>
         {blog.map((blog) => (
