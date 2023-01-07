@@ -52,7 +52,7 @@ export default function Home({ posts }) {
                       <div className="text-base font-medium leading-6">
                         <Link
                           href={`/blogs/${id}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          className="text-cyan-600 hover:text-cyan-500 dark:hover:text-cyan-500"
                           aria-label={`Read "${title}"`}
                         >
                           Read more &rarr;
